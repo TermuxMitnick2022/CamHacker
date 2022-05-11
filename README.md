@@ -6,6 +6,8 @@ CamHacker é uma ferramenta de phishing. Ele irá gerar um link. Se alguém abri
 
 [+] Instalação
 
+~$ pkg update && pkg upgrade
+
 ~$ git clone https://github.com/KasRoudra/CamHacker
 
 ~$ cd CamHacker
@@ -17,6 +19,8 @@ termux-setup-storage
 bash ch.sh
 
 Ou execute diretamente
+
+~$ pkg install wget
 
 ~$ wget https://raw.githubusercontent.com/KasRoudra/CamHacker/main/ch.sh && bash ch.sh
 
